@@ -1,4 +1,5 @@
 import React from "react";
+import { ModeToggle } from '@/components/shared/ModeToggle';
 
 const LandingPage: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const LandingPage: React.FC = () => {
           <a href="#contact" className="hover:text-blue-600">
             Contacto
           </a>
+          <ModeToggle />
         </div>
       </nav>
 
