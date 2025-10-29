@@ -1,5 +1,6 @@
 ---
 import PublicLayout from '@/layouts/PublicLayout.astro';
+import LandingPage from '@/landing/LandingPage';
 const robots = ["index", "follow"];
 const title = "Incadev - Instituto de Capacitación y Desarrollo Virtual";
 const description = "Incadev es un instituto que ofrece servicios de capacitación y desarrollo virtual para estudiantes y profesionales.";
@@ -7,12 +8,9 @@ const keywords = ["Incadev", "Instituto de Capacitación y Desarrollo Virtual", 
 const url = "https://instituto.cetivirgendelapuerta.com";
 const imageOG = "/ISOLOGOTIPO_VERTICAL.svg";
 const imagetwt = "/ISOLOGOTIPO_VERTICAL.svg";
+
 ---
 
 <PublicLayout {robots} {title} {description} {keywords} {url} {imageOG} {imagetwt}>
-	<h2 class="text-xl mb-25">Comprobación de instalación</h2>
-	<p class="bg-green-200 p-4 rounded-lg shadow-md">
-		Si ves este mensaje en verde, significa que Tailwind está funcionando correctamente.
-	</p>
-	<img src="/LOGOTIPO_48x48.svg" alt="">
+	<LandingPage />
 </PublicLayout>
