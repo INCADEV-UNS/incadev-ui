@@ -15,6 +15,7 @@ export const config = {
       update: "/api/users/:id"
     },
 
+    //EJEMPLO
     auth: {
       login: "/api/auth/login",
       logout: "/api/auth/logout",
