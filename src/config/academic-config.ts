@@ -45,22 +45,22 @@ export const config = {
     },
 
     graduates: {
-      // Employment Profile
+     
       getProfile: "/api/employment-profile",
       updateProfile: "/api/employment-profile",
       deleteProfile: "/api/employment-profile",
       
-      // Surveys
+  
       getSurveys: "/api/surveys",
       getSurveyById: "/api/surveys/:id",
       submitSurvey: "/api/surveys/:id/response",
       
-      // Admin: Survey Management
+      
       createSurvey: "/api/surveys",
       updateSurvey: "/api/surveys/:id",
       deleteSurvey: "/api/surveys/:id",
       
-      // Admin: Statistics
+      
       getStatistics: "/api/graduate-statistics",
       exportReport: "/api/graduate-statistics/export",
     },
